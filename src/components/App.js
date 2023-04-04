@@ -1,9 +1,10 @@
 import React from 'react';
+import SearchInput from './SearchInput';
 
 const App = () => {
   return (
     <div>
-    Hello World!
+      <SearchInput />
     </div>
   )
 }
