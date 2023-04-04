@@ -4,7 +4,9 @@ class SearchInput extends React.Component {
   render() {
     return (
       <div>
-        Search Input
+        <form action="">
+          <input type="text"/>
+        </form>
       </div>
     )
   }
