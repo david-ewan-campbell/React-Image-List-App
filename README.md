@@ -1,3 +1,16 @@
+# Simple Image List App Based on a Udemy tutorial that gives you a form to request images based on your own word search.
+## This was one of my first times returning to using React independently, since using React in our final project at Makers in 2022.
+- I wanted to start getting to grips with React & its terminology, syntax & methods myself, after the fairly overwhelming experience of trying to learn to use it in the 10 days it took to build the Seedle final project last year.
+- This is all part of my ongoing consolidating my knowledge on how to build functioning websites using different technologies. React especially enjoyable as a framework where you can see changes instantly occurring & giving error reports back in the console as you work.
+
+## THINGS I LEARNT FROM DOING THIS...
+- BUILDING COMPONENTS - Building individual components for each element of the functionality required for this project, SRP seems to be an essential key in building components that each do a particular 'task' and assists in being able to clearly see what needed to change in each component & debug.
+- EVENT HANDLERS - Using event handlers that use callback functions, using the 'this' value inside those functions & arrow syntax to bind the function to the appropriate value for that function.
+i.e. In the SearchInput component each time a search is made 'this' passes the search as a state value and the search is rendered.
+- PARENT-CHILD COMPONENT RELATIONSHIPS - Can only communicate by passing props from a parent to a child component but learnt how to pass a search input up to the parent App component by using callbacks.
+- LEARNING the JAVASCRIPT EXTENSION LANGUAGE JSX - and its similarities to HTML & using JS expressions inside JSX using curly brackets to pass values.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,11 +26,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
